@@ -33,8 +33,8 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/curriculo_ptbr.pdf";
-    link.download = "/curriculo_ptbr.pdf";
+    link.href = "curriculo_ptbr.pdf";
+    link.download = "curriculo_ptbr.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -321,7 +321,7 @@ export default function Home() {
                   <FaLinkedin />
                 </div>
                 <a
-                  href="www.linkedin.com/in/wendell-costa-barreto-junior"
+                  href="https://www.linkedin.com/in/wendell-costa-barreto-junior"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-4 hover:text-indigo-400 transition"
