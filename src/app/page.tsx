@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { HugeiconsIcon } from "@hugeicons/react";
 import { ComputerIcon } from "lucide-react";
 import { IoLanguageOutline } from "react-icons/io5";
 import { MdEmail, MdOutlineDesignServices } from "react-icons/md";
